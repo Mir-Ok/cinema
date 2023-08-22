@@ -1,0 +1,38 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #2852fa;
+	padding: 10px 20px;
+	color: white;
+	align-items: center;
+}
+
+.login__button {
+	background-color: rgb(255, 255, 255);
+	border-radius: 2px;
+	border: none;
+	color: #2852fa;
+	padding: 8px 20px;
+	/* margin: 0 5px 5px 0; */
+}
+
+.active {
+	background-color: #fa28da;
+	border-radius: 3px;
+	color: white;
+	padding: 5px 20px 10px 20px;
+}
+
+.pending {
+	font-weight: bold;
+}
+
+.normal {
+	padding: 10px;
+	color: white;
+}
+
+
+
+
+

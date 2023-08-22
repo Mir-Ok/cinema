@@ -1,0 +1,42 @@
+/* МОДАЛКА */
+
+.modal {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.4);
+
+	/* при скролле всегда на месте */
+	position: fixed; 
+	top: 0;
+	left: 0;
+
+	/* центрирование */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/* не видно, не мешает взаимодействию с другими блоками */
+	opacity: 0;
+	transition: 0.4s all;
+	pointer-events: none;	
+}
+
+.modal.active {
+	/* при активации полная видимость */
+	opacity: 1;
+	pointer-events: all;	
+}
+
+.modal__content {
+	padding: 20px;
+	border-radius: 12px;
+	background-color: #fff;
+	width: 30vw;
+	transform: scale(0.5);
+	transition: 0.4s all;
+}
+
+.modal__content.active {
+	/* при активации полный размер */
+	transform: scale(1);
+}

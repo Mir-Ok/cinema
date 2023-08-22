@@ -1,0 +1,33 @@
+.filter__header {
+	margin-bottom: 10px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+}
+
+.filter__container {
+	background-color: white;
+	/* box-shadow: 1px 1px 10px grey; */
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	/* max-width: 225px; */
+}
+
+.filter_pag {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px;
+}
+
+.filter_pag_buttons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.filter_pag_pages {
+	display: flex;
+	justify-content: center;
+}
